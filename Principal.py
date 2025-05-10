@@ -6,7 +6,7 @@ my_faker = fk.Faker()
 st.set_page_config(
     page_title="Concurrente",
     page_icon=":material/arrow_or_edge:",
-    layout="wide",
+    layout="centered",
 )
 
 st.title("Página Principal")
