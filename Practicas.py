@@ -9,7 +9,7 @@ st.title("Seccion de Practicas")
 cols = st.columns(2, vertical_alignment="bottom")
 
 with cols[0]:
-    num = st.selectbox("Selecciona la practica", range(1,11))
+    num = st.selectbox("Selecciona la practica", range(1,9))
 
 
 path_to_pdf = f"assets/Practicas/Practica{num}.pdf"
